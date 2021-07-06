@@ -1,0 +1,35 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.section1 {
+  display: flex;
+}
+.h1-color {
+  color: #fe482d;
+}
+.food-network h1 {
+  font-size: 50px;
+  margin: 0;
+}
+.food-network p {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+.half-width img {
+  width: 75%;
+  margin-left: 40px;
+}
+.batton-style {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#fc8f49, #fe462d);
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+.food-network {
+  margin-top: 40px;
+}
