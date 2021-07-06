@@ -1,6 +1,8 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
 }
+/* start section 1 */
 .flexible-section {
   display: flex;
 }
@@ -12,8 +14,8 @@ body {
   margin: 0;
 }
 .paragraph-style-foodnetwork {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 .half-width {
   width: 50%;
@@ -30,6 +32,8 @@ body {
   padding: 15px 30px;
   border-radius: 30px;
 }
+/* End section 1 */
+/* start section 2 */
 .food-network {
   margin-top: 40px;
 }
@@ -52,3 +56,79 @@ body {
   padding-left: 200px;
   padding-right: 100px;
 }
+/* End section 2 */
+
+/* start section 3 */
+.section3 {
+  margin: 90px 90px;
+}
+.section3-header {
+  color: gray;
+}
+.section3-peragraph {
+  width: 700px;
+}
+.align-center {
+  width: 710px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* End section 3 */
+
+/* start section 4 */
+.food-container {
+  display: flex;
+}
+.food-item {
+  width: 335px;
+  padding-top: 15px;
+}
+.food-text {
+  width: 350px;
+  margin-right: 50px;
+  margin-bottom: 110px;
+  box-shadow: 1px 1px 30px 1px #888888;
+  padding: 2px 13px 30px 13px;
+  border-radius: 30px;
+}
+.section4 {
+  text-align: center;
+  margin: 0 auto;
+}
+.left-side {
+  margin-left: 65px;
+}
+/* End section 4 */
+
+/* start section 5 */
+.section5 {
+  display: flex;
+  box-shadow: 1px 1px 30px 1px #888888;
+  width: 65%;
+  padding: 25px 140px 45px 140px;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 110px;
+}
+.social-media {
+  width: 450px;
+  text-align: center;
+  font-size: 20px;
+}
+/* End section 5 */
+
+/* start footer area */
+.food-village {
+  font-size: 35px;
+}
+.footer-area {
+  background-color: black;
+  padding: 10px 0 80px 500px;
+}
+.village-gray {
+  color: gray;
+}
+.eat-healthy {
+  color: white;
+}
+/* end footer area */
